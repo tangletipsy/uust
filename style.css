@@ -1,0 +1,208 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F7FA;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 20px 0;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .header .logo span {
+    color: #007BFF;
+  }
+  
+  .header .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .actions .theme-toggle {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .header .actions .cta {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .profile-card {
+    text-align: center;
+  }
+  
+  .profile-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .profile-card h2 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  
+  .profile-card p {
+    color: #666;
+  }
+  
+  .profile-card .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .profile-card .buttons a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .profile-card .buttons .primary {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  .profile-card .buttons .secondary {
+    background-color: #E0E0E0;
+    color: #333;
+  }
+  
+  .work-experience, .recent-projects, .expert-area, .contact {
+    flex: 2;
+  }
+  
+  .work-experience ul, .recent-projects ul, .expert-area ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .work-experience li, .recent-projects li, .expert-area li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .work-experience li:last-child, .recent-projects li:last-child, .expert-area li:last-child {
+    border-bottom: none;
+  }
+  
+  .work-experience h3, .recent-projects h3, .expert-area h3, .contact h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .recent-projects img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .recent-projects .project {
+    margin-bottom: 20px;
+  }
+  
+  .recent-projects .project:last-child {
+    margin-bottom: 0;
+  }
+  
+  .recent-projects .project .label {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .expert-area .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .expert-area .skills .skill {
+    background-color: #E0E0E0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+  
+  .contact {
+    text-align: center;
+  }
+  
+  .contact .cta {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #666;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .card {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark-mode .header .actions .cta {
+    background-color: #fff;
+    color: #333;
+  }
